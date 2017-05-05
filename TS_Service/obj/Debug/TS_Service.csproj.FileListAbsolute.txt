@@ -1,0 +1,8 @@
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\TS_Service\bin\TS_Service.dll.config
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\TS_Service\bin\TS_Service.dll
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\TS_Service\bin\TS_Service.pdb
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\TS_Service\bin\commom.dll
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\TS_Service\bin\commom.pdb
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\TS_Service\obj\Debug\TS_Service.csprojResolveAssemblyReference.cache
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\TS_Service\obj\Debug\TS_Service.dll
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\TS_Service\obj\Debug\TS_Service.pdb

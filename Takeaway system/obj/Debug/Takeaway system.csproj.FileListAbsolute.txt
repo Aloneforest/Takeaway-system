@@ -1,0 +1,24 @@
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\bin\Debug\Takeaway system.exe.config
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\bin\Debug\Takeaway system.exe
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\bin\Debug\Takeaway system.pdb
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\bin\Debug\commom.dll
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\bin\Debug\commom.pdb
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway system.csprojResolveAssemblyReference.cache
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSAddUser.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSLogin.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.Properties.Resources.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSMessage.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway system.csproj.GenerateResource.Cache
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway system.exe
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway system.pdb
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSMain_business.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSMain_user.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSadddishes.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSViewMenu.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSChangeDishes.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSRemoveDishes.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSViewBusress.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSChangePwd.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSViewOrder.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSRemoveOrder.resources
+C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\Takeaway system\obj\Debug\Takeaway_system.TSAddOrder.resources

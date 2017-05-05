@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Takeaway system", "Takeaway system\Takeaway system.csproj", "{D78CE61A-5ADD-48D1-A08F-A1F0CA5DF885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "commom", "commom\commom.csproj", "{FF517392-84BD-4651-AF9D-DE8126F534DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TS_Service", "TS_Service\TS_Service.csproj", "{589DAEA9-D358-4225-9E07-16003A4F3309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D78CE61A-5ADD-48D1-A08F-A1F0CA5DF885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78CE61A-5ADD-48D1-A08F-A1F0CA5DF885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78CE61A-5ADD-48D1-A08F-A1F0CA5DF885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78CE61A-5ADD-48D1-A08F-A1F0CA5DF885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF517392-84BD-4651-AF9D-DE8126F534DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF517392-84BD-4651-AF9D-DE8126F534DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF517392-84BD-4651-AF9D-DE8126F534DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF517392-84BD-4651-AF9D-DE8126F534DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589DAEA9-D358-4225-9E07-16003A4F3309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589DAEA9-D358-4225-9E07-16003A4F3309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589DAEA9-D358-4225-9E07-16003A4F3309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589DAEA9-D358-4225-9E07-16003A4F3309}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
