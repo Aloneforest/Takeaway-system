@@ -30,7 +30,7 @@ namespace Takeaway_system
         private void TSRemoveOrder_Load(object sender, EventArgs e)
         {
             string handlerurl =
-                url + "TSViewOrder_Handler.ashx?uname=" + uname;
+                url + "TSViewOrder_Handler.ashx?uname=" + uname + "&id=1";
 
             //访问服务器
             string json = HttpHelper.Get(handlerurl);
@@ -46,6 +46,12 @@ namespace Takeaway_system
         private void uploadpicture_Click(object sender, EventArgs e)
         {
             string id = textid.Text;
+
+            if(id == "")
+            {
+                MessageBox.Show("请输入编号");
+                return;
+            }
 
             string handlerurl =
                 url + "TSRemoveOrder_Handler.ashx?id=" + id;

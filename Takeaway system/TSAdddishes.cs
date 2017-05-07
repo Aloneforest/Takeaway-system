@@ -52,6 +52,35 @@ namespace Takeaway_system
             string DishName = txtDishName.Text;
             string Price = txtPrice.Text;
 
+            if(DishName == "")
+            {
+                MessageBox.Show("请输入菜名");
+                return;
+            }
+
+            if(Price == "")
+            {
+                MessageBox.Show("请输入价格");
+                return;
+            }
+            int num;
+            try
+            {
+                num = int.Parse(txtPrice.Text);
+            }
+            catch
+            {
+                MessageBox.Show("请输入正确数字");
+                return;
+            }
+            
+
+            if(filePath == null)
+            {
+                MessageBox.Show("请添加图片");
+                return;
+            }
+
             //创建url
             string handlerurl =
                 url + "TSAdddishes_Handler.ashx?DishName=" + DishName + "&Price=" + Price + "&fileName=" + DishName + ".jpg" + "&uname=" + uname;
@@ -75,6 +104,11 @@ namespace Takeaway_system
             {
                 MessageBox.Show("failed");
             }
+        }
+
+        private void butCancel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

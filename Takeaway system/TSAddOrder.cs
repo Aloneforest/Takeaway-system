@@ -68,21 +68,43 @@ namespace Takeaway_system
         private void addpicture_Click(object sender, EventArgs e)
         {
             //获取商家名
+            if (BusinesslistBox.SelectedIndex == -1)
+            {
+                MessageBox.Show("请先选择商家");
+                return;
+            }
+
             string user_name = BusinesslistBox.Items[BusinesslistBox.SelectedIndex].ToString();
             user_name = user_name.Trim();
 
             //获取菜品名
+            if (MenulistBox.SelectedIndex == -1)
+            {
+                MessageBox.Show("请先选择菜品");
+                return;
+            }
+
             string menu_name = MenulistBox.Items[MenulistBox.SelectedIndex].ToString();
             menu_name = menu_name.Trim();
 
             //获取数量
-            int num = int.Parse(textnum.Text);
-
-            if(num==null)
+            if (textnum.Text == "")
             {
                 MessageBox.Show("请输入数量");
                 return;
             }
+
+            int num;
+            try
+            {
+                num = int.Parse(textnum.Text);
+            }
+            catch
+            {
+                MessageBox.Show("请输入正确数字");
+                return;
+            }
+            
 
             //获取地址 
             string address = textaddress.Text;

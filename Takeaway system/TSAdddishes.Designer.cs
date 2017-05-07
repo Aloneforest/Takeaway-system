@@ -107,6 +107,7 @@
             this.butCancel.TabIndex = 20;
             this.butCancel.Text = "取消";
             this.butCancel.UseVisualStyleBackColor = false;
+            this.butCancel.Click += new System.EventHandler(this.butCancel_Click);
             // 
             // butAdd
             // 

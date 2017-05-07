@@ -35,6 +35,12 @@ namespace Takeaway_system
         private void uploadpicture_Click(object sender, EventArgs e)
         {
             //获取菜品名
+            if (MenulistBox.SelectedIndex == -1)
+            {
+                MessageBox.Show("请先选择菜品");
+                return;
+            }
+
             string name = MenulistBox.Items[MenulistBox.SelectedIndex].ToString();
             name = name.Trim();
 
