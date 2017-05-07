@@ -48,6 +48,9 @@ namespace Takeaway_system
 
         private void ViweBusress_Click(object sender, EventArgs e)
         {
+            if (BusinesslistBox.SelectedIndex < 0)
+                return;
+
             //获取商家名
             string name = BusinesslistBox.Items[BusinesslistBox.SelectedIndex].ToString();
             name = name.Trim();
