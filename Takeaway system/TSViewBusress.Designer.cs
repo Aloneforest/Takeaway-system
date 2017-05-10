@@ -46,7 +46,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(187, 516);
+            this.ClientSize = new System.Drawing.Size(844, 516);
             this.Controls.Add(this.BusinesslistBox);
             this.Name = "TSViewBusress";
             this.Text = "TSViewBusress";

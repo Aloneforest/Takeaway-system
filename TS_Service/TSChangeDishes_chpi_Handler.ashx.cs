@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 
@@ -10,7 +11,8 @@ namespace TS_Service
     /// </summary>
     public class TSChangeDishes_chpi_Handler : IHttpHandler
     {
-
+        string fileaddress = ConfigurationManager.ConnectionStrings["fad"].ConnectionString;
+       
         public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "text/plain";
@@ -18,7 +20,7 @@ namespace TS_Service
             string fileName = context.Request["fileName"];
 
             //设置上传文件存储位置
-            string fileaddress = @"C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\TS_Service\picture\" + fileName;
+            fileaddress = @fileaddress + fileName;
 
             HttpPostedFile file = HttpContext.Current.Request.Files[0];
             file.SaveAs(fileaddress);

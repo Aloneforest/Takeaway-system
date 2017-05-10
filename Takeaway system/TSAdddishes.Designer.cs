@@ -44,7 +44,6 @@
             // 
             this.txtPrice.Location = new System.Drawing.Point(159, 98);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.PasswordChar = '*';
             this.txtPrice.Size = new System.Drawing.Size(172, 21);
             this.txtPrice.TabIndex = 14;
             // 

@@ -15,6 +15,7 @@ namespace TS_Service
     {
         //设置连接到配置文件组建 Web.config
         string connStr = ConfigurationManager.ConnectionStrings["str"].ConnectionString;
+        string fileaddress = ConfigurationManager.ConnectionStrings["fad"].ConnectionString;
 
         public void ProcessRequest(HttpContext context)
         {
@@ -27,7 +28,7 @@ namespace TS_Service
             string uname = context.Request["uname"];
 
             //设置上传文件存储位置
-            string fileaddress = @"C:\Users\alone森林\Desktop\通用\c#\ConsoleApplication1\Takeaway system\TS_Service\picture\" + fileName;
+            fileaddress = @fileaddress + fileName;
 
             string sql = "select * from 菜品表 where name = '" + DishName + "'";
 

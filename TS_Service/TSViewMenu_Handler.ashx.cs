@@ -25,7 +25,7 @@ namespace TS_Service
             string uname = context.Request["uname"];
 
             //创建sql语句
-            string sql = "select name,price from 菜品表 where uname = '" + uname + "'";
+            string sql = "select * from 菜品表 where uname = '" + uname + "'";
 
             //从数据库获取值
             DataSet ds = new DataSet();
